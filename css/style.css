@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	background-color: #f3f3f3;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.cabecalho {
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 45px;
+	border-bottom: 1px solid black;
+	color: white;
+	background-color: black;
+	opacity: 0.7;
+	position: fixed;
+}
+
+.nav-container {
+	padding: 15px 15px 15px 15px;
+	margin: 0 auto;
+}
+
+.top-menu {
+	float: right;
+	color: white;
+	margin-left: 55px;
+}
+
+.top-menu a{
+	color: white;
+	padding-right: 9px;
+}
+
+
+.socialMedia {
+	float: right;
+	color: white;
+}
+
+.socialMedia a{
+	color: white;
+	padding-left: 10px;
+}
+
+.parte-esquerda {
+	float: left;
+}
+
+.conteudo {
+	height: 90vh;
+	background-image: url("../img/background.png");
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.presentation {
+	color: white;
+	font-size: 4em;/*
+	border: 1px solid red;*/
+	text-shadow: 1px 1px 10px #383838;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 35vh;
+	text-align: left;
+}
+
+.subtexto {
+
+	text-shadow: 1px 1px 10px #383838;
+	font-size: 2em;
+}
+
+.container-inicio {
+	display: block;
+	padding-left: 40px;
+}
+
+.texto {
+	margin: 0 auto;
+	margin-top: -2%;
+	text-align: center;
+	vertical-align: middle;
+	background-color: white;
+	border-radius: 20px;
+	width: 50%;
+}
+
+.container-card {
+    padding: 2px 16px;
+}
+
+.container-card h4{
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.conteudo-principal {
+	width: 100%;
+}
+
+.cartao  {
+	margin: 0 auto;
+	margin-top: 1vh;
+	box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
+	width: 10%;
+	float: left;
+	margin-left: 10%;
+	background-color: white;
+	border-radius: 50px;
+
+}
+
+.cartao img {
+	vertical-align: middle;
+	height: 20vh;
+	
+	border-radius: 50px;
+
+}
+
+
